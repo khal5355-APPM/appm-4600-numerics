@@ -182,22 +182,25 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
         - ~~[The first five years of the AAA algorithm](https://people.maths.ox.ac.uk/trefethen/nak_sete_tref_revised.pdf) by Y. Nakatsukasa, O. Sete, L. N. Trefethen~~
     - ~~[LOESS and other smoothing techniques](https://en.wikipedia.org/wiki/Local_regression)~~
 - Thu, Oct 30, Lab 10
-  - TBD
+  - [Lab10 FFT](Labs/Lab10_FFT.ipynb) on the DFT/FFT in 1D and 2D and the Gibbs phenomenon with Fourier Series
 - Fri, Oct 31 
-  - Debrief from lab
-  - [Intro to quadrature](Notes/Ch4_quadrature_intro.pdf), and [Newton Cotes formula](Notes/Ch4_quadrature_NewtonCotes.pdf) from ch 4.3
-  - Demo: [Ch4_integration.ipynb](Demos/Ch4_integration.ipynb)
-  - Note: We will not cover the first parts of this chapter (on *differentiation*), as that is now covered 2nd semester along with Ch 5.  For reference, we have some old notes: [Intro to numerical differentiation](Notes/Ch4_FiniteDifferencesIntro.pdf) and [Finite differences](Notes/Ch4_FiniteDifferences_more.pdf) on ch 4.1; with a [finite differences demo](Demos/Ch4_FiniteDifferences.ipynb); and [Richardson extrapolation](Notes/Ch4_RichardsonExtrapolation.pdf) on ch 4.2 along with the [Ch4_RichardsonExtrapolation.ipynb demo](Demos/Ch4_RichardsonExtrapolation.ipynb)
-  - [Composite quadrature](Notes/Ch4_quadrature_composite.pdf) from ch 4.4
-  - Demo: [Ch4_CompositeIntegration.ipynb](Demos/Ch4_CompositeIntegration.ipynb)
-  - Note: we are *not* covering Gregory's method; if you're interested, see (CU professor) Bengt Fornberg's talk [Gregory formulas and improving on the Trapezoidal rule](https://www.colorado.edu/amath/sites/default/files/attached-files/2019_unm_0.pdf)
+  - Finish DFT/FFT notes, deriving the FFT and its complexity
+  - Start [Intro to quadrature](Notes/Ch4_quadrature_intro.pdf)
+  - Note: 
+    - We will **not** cover the first parts of this chapter (on *differentiation*), as that is now covered 2nd semester along with Ch 5.  For reference, we have some old notes: [Intro to numerical differentiation](Notes/Ch4_FiniteDifferencesIntro.pdf) and [Finite differences](Notes/Ch4_FiniteDifferences_more.pdf) on ch 4.1; with a [finite differences demo](Demos/Ch4_FiniteDifferences.ipynb); and [Richardson extrapolation](Notes/Ch4_RichardsonExtrapolation.pdf) on ch 4.2 along with the [Ch4_RichardsonExtrapolation.ipynb demo](Demos/Ch4_RichardsonExtrapolation.ipynb)
+    - For integration, we are *not* covering Gregory's method; if you're interested, see (CU professor) Bengt Fornberg's talk [Gregory formulas and improving on the Trapezoidal rule](https://www.colorado.edu/amath/sites/default/files/attached-files/2019_unm_0.pdf)
 
 #### Week 12, more Chapter 4 (numerical integration)
 
 - Mon, Nov 3 
-  - [Romberg integration](Notes/Ch4_RombergIntegrationEulerMacLaurin.pdf) from ch 4.5
-    - Demo: [Ch4_RombergIntegration.ipynb](Demos/Ch4_RombergIntegration.ipynb)
-  - We'll skip Romberg if we're short on time
+  - Finish [Intro to quadrature](Notes/Ch4_quadrature_intro.pdf)
+    - Demo: [Ch4_integration.ipynb](Demos/Ch4_integration.ipynb)
+  - [Newton Cotes formula](Notes/Ch4_quadrature_NewtonCotes.pdf) from ch 4.3
+  - [Composite quadrature](Notes/Ch4_quadrature_composite.pdf) from ch 4.4
+    - Demo: [Ch4_CompositeIntegration.ipynb](Demos/Ch4_CompositeIntegration.ipynb)
+  - If we have time:
+    - ~~[Romberg integration](Notes/Ch4_RombergIntegrationEulerMacLaurin.pdf) from ch 4.5~~
+    - ~~Demo: [Ch4_RombergIntegration.ipynb](Demos/Ch4_RombergIntegration.ipynb)~~
 - Wed, Nov 5 
   - In-class review
   - Evening **midterm exam**, 6 to 7:30 PM, ECCS 1B12
