@@ -29,22 +29,22 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Finish Floating Point Numbers
   - Conditioning and start Stability
   - Refs: mostly from Driscoll and Braun, some ch 1.3. 
-  - Demos: [Ch1_SymbolicTaylorSeries](Demos/Ch1_SymbolicTaylorSeries.ipynb), [Ch1_DataTypes](Demos/Ch1_DataTypes.ipynb), [Ch1_ExponentialSummation](Demos/Ch1_ExponentialSummation.ipynb)
+  - Demos: <!-- [Ch1_SymbolicTaylorSeries](Demos/Ch1_SymbolicTaylorSeries.ipynb), [Ch1_DataTypes](Demos/Ch1_DataTypes.ipynb), [Ch1_ExponentialSummation](Demos/Ch1_ExponentialSummation.ipynb) -->
 - Tue, Jan 13
   - Lab 1
   - Setup Python locally and on cloud
 - Wed, Jan 14
   - Debrief from lab
   - Finish Stability and Big-O notation.
-  - Demos: [Ch1_Stability_simple](Demos/Ch1_Stability_simple.ipynb). 
+  - Demos: <!-- [Ch1_Stability_simple](Demos/Ch1_Stability_simple.ipynb).  -->
   - Optional:
-    [Ch1_Extra_Conditioning](Demos/Ch1_Extra_Conditioning.ipynb) is a
-    summary of ch 1 material from Jed Brown's course (didn't cover in
-    class)
+    <!--   [Ch1_Extra_Conditioning](Demos/Ch1_Extra_Conditioning.ipynb) is a -->
+    <!-- summary of ch 1 material from Jed Brown's course (didn't cover in -->
+    <!-- class) -->
 - Fri, Jan 16
   - Rates of convergence, from ch 2.4.
-  - Demos: [Ch1_QuadraticFormula](Demos/Ch1_QuadraticFormula.ipynb),
-    [Ch1_RatesOfConvergence](Demos/Ch1_RatesOfConvergence.ipynb)
+  - Demos: <!-- [Ch1_QuadraticFormula](Demos/Ch1_QuadraticFormula.ipynb), -->
+    <!-- [Ch1_RatesOfConvergence](Demos/Ch1_RatesOfConvergence.ipynb) -->
 
 #### Week 3, Chapter 2 (1D root-finding)
 
@@ -59,7 +59,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Fri, Jan 23 
   - Finish Memory on a computer; sparse matrix format; HDF5
   - Intro to multivariate calculus
-  - Demos: [Sparse Matrices](Demos/Ch1_SparseMatrices.ipynb)
+  - Demos: <!-- [Sparse Matrices](Demos/Ch1_SparseMatrices.ipynb) -->
 
 #### Week 4, more Chapter 2 (1D root-finding)
 
@@ -73,7 +73,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Finish Automatic Differentiation
   - Discussed computational complexity of multiplying two $n\times n$
     square matrices (and brief mention of Strassen)
-  - Demo: [AutoDiff](Demos/Ch1_AutoDiff.ipynb) with both PyTorch and JAX
+  - Demo: <!-- [AutoDiff](Demos/Ch1_AutoDiff.ipynb) with both PyTorch and JAX -->
 - Fri, Jan 30
   - Intro to scalar root-finding
   - Intro to scalar optimization
@@ -84,7 +84,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - multiple roots
   - Bisection Method, from ch 2.1
   - Start Fixed Point Iteration, from ch 2.2.
-  - Demo: [Ch2_IntroToBisection.ipynb](Demos/Ch2_IntroToBisection.ipynb)
+  - Demo: <!-- [Ch2_IntroToBisection.ipynb](Demos/Ch2_IntroToBisection.ipynb) -->
 - Tue, Feb 3
   - Lab 4
 - Wed, Feb 4 
@@ -95,20 +95,20 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Fri, Feb 6 
   - Newton's Method, from ch 2.3
   - Newton's Method Variants (secant method, etc.)
-  - Demo: finish [Ch2_IntroToBisection.ipynb](Demos/Ch2_IntroToBisection.ipynb)
-  - Demos
-    - [Ch2_Intersection_GraphingCalculator.ipynb](Demos/Ch2_Intersection_GraphingCalculator.ipynb)
-    - [Ch2_FixedPointPlots.ipynb](Demos/Ch2_FixedPointPlots.ipynb)
-      which uses a nice [geogebra online cobweb plotting
-      app](https://www.geogebra.org/m/uvsfvNDt)
-    - [Ch2_NewtonsMethod.ipynb](Demos/Ch2_NewtonsMethod.ipynb)
-    - [HowToCheckYourAnswerUsingExtendedPrecision.ipynb](Demos/HowToCheckYourAnswerUsingExtendedPrecision.ipynb)
-      (Python) or
-      [HowToCheckYourAnswerUsingExtendedPrecision.m](Demos/HowToCheckYourAnswerUsingExtendedPrecision.m)
-      (Matlab)
+  - Demo: <!-- finish [Ch2_IntroToBisection.ipynb](Demos/Ch2_IntroToBisection.ipynb) -->
+ <!-- - Demos -->
+ <!--    - [Ch2_Intersection_GraphingCalculator.ipynb](Demos/Ch2_Intersection_GraphingCalculator.ipynb) -->
+ <!--    - [Ch2_FixedPointPlots.ipynb](Demos/Ch2_FixedPointPlots.ipynb) -->
+ <!--      which uses a nice [geogebra online cobweb plotting -->
+ <!--      app](https://www.geogebra.org/m/uvsfvNDt) -->
+ <!--    - [Ch2_NewtonsMethod.ipynb](Demos/Ch2_NewtonsMethod.ipynb) -->
+ <!--    - [HowToCheckYourAnswerUsingExtendedPrecision.ipynb](Demos/HowToCheckYourAnswerUsingExtendedPrecision.ipynb) -->
+ <!--      (Python) or -->
+ <!--      [HowToCheckYourAnswerUsingExtendedPrecision.m](Demos/HowToCheckYourAnswerUsingExtendedPrecision.m) -->
+ <!--      (Matlab) -->
   - Aitken Extrapolation and Zeros of Polynomials and Muller's Method,
     from ch 2.5 and 2.6
-    - Demo: [Ch2_AitkenExtrapolation.ipynb](Demos/Ch2_AitkenExtrapolation.ipynb)
+    - Demo: <!-- [Ch2_AitkenExtrapolation.ipynb](Demos/Ch2_AitkenExtrapolation.ipynb) -->
 
 
 #### Week 6, Chapter 10 (nonlinear systems of equations)
@@ -122,7 +122,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
     Fixed Point Iteration
   - Ch 10.2, Newton's method for systems
   - Demo:
-    [Ch10_NewtonForSystems.ipynb](Demos/Ch10_NewtonForSystems.ipynb)
+    <!-- [Ch10_NewtonForSystems.ipynb](Demos/Ch10_NewtonForSystems.ipynb) -->
     which also is an example of using JAX for the AutoDiff
 - Fri, Feb 13
   - Example of multivariate contraction mapping theorem
@@ -149,8 +149,8 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 #### Week 8, Chapter 3 (interpolation)
 - Mon, Feb 23
   - Intro to Interpolation from ch 3.1
-  - Demo: [Gradient descent vs Newton on nonconvex problem in
-    2D](Demos/Ch10_nonconvex_example_2D.ipynb)
+  - Demo: <!-- [Gradient descent vs Newton on nonconvex problem in -->
+    <!-- 2D](Demos/Ch10_nonconvex_example_2D.ipynb) -->
 - Tue, Feb 24
   - Lab 7
 - Wed, Feb 25
@@ -190,19 +190,19 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Interpolation: supplemental notes on how to think about it i.e.,
     different bases, and solving linear systems
   - Demos:
-    [Ch3_PolynomialInterpolation.ipynb](Demos/Ch3_PolynomialInterpolation.ipynb),
+    <!-- [Ch3_PolynomialInterpolation.ipynb](Demos/Ch3_PolynomialInterpolation.ipynb), -->
     which also links to other demos
 - Fri, Mar 6 
   - Hermite Interpolation from ch 3.4
   - Intro to Splines from ch 3.5 (we'll skip ch 3.6)
-  - Demo: [splines](Demos/Ch3_Splines.ipynb)
+  - Demo: <!-- [splines](Demos/Ch3_Splines.ipynb) -->
 
 #### Week 10, Chapter 8 (approximation theory)
 - Mon, Mar 9 
   - Finish Splines
-  - Demo: [Misc_speedExamples](Demos/Misc_speedExamples.ipynb) on
-    vectorizing code, avoiding `if` statements in inner `for` loops,
-    etc.
+  - Demo: <!-- [Misc_speedExamples](Demos/Misc_speedExamples.ipynb) on -->
+    <!-- vectorizing code, avoiding `if` statements in inner `for` loops, -->
+    <!-- etc. -->
 - Tue, Mar 10
   - Lab 9
 - Wed, Mar 11
@@ -217,9 +217,9 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
 - Mon, Mar 23
   - Finish 8.2
   - Demos: 
-    - [Approximation in L^2](Demos/Ch8_ContinuousL2.ipynb)
-    - [Common Python pitfalls](Demos/Misc_CommonPythonPitfalls.ipynb)
-      relevant to numerical analysys
+    <!-- - [Approximation in L^2](Demos/Ch8_ContinuousL2.ipynb) -->
+    <!-- - [Common Python pitfalls](Demos/Misc_CommonPythonPitfalls.ipynb) -->
+    <!--   relevant to numerical analysys -->
 - Tue, Mar 24
   - Lab 10
 - Wed, Mar 25
@@ -238,11 +238,11 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
     - We will **not** cover the first parts of this chapter (on
       *differentiation*), as that is now covered 2nd semester along
       with Ch 5.  For reference, we have some old notes: Intro to
-      numerical differentiation and Finite differences on ch 4.1; with
-      a [finite differences demo](Demos/Ch4_FiniteDifferences.ipynb);
-      and Richardson extrapolation on ch 4.2 along with the
-      [Ch4_RichardsonExtrapolation.ipynb
-      demo](Demos/Ch4_RichardsonExtrapolation.ipynb)
+      numerical differentiation and Finite differences on ch 4.1; <!-- with -->
+      <!-- a [finite differences demo](Demos/Ch4_FiniteDifferences.ipynb); -->
+      <!-- and Richardson extrapolation on ch 4.2 along with the -->
+      <!-- [Ch4_RichardsonExtrapolation.ipynb -->
+      <!-- demo](Demos/Ch4_RichardsonExtrapolation.ipynb) -->
     - For integration, we are *not* covering Gregory's method; if
       you're interested, see (CU professor) Bengt Fornberg's talk
       [Gregory formulas and improving on the Trapezoidal
@@ -254,7 +254,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Newton Cotes formula from ch 4.3
   <!-- - If we have time: -->
   <!--   - ~~Romberg integration from ch 4.5~~ -->
-  - Demo: [Ch4_RombergIntegration.ipynb](Demos/Ch4_RombergIntegration.ipynb)
+  - Demo: <!-- [Ch4_RombergIntegration.ipynb](Demos/Ch4_RombergIntegration.ipynb) -->
 - Tue, Mar 31
   - Lab 11
 - Wed, Apr 1
@@ -264,10 +264,10 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Evening **midterm exam**, TBD
 - Fri, Apr 3 
   - Finish Newton cotes
-  - Demo: [Ch4_integration.ipynb](Demos/Ch4_integration.ipynb)
-    - Look at [Tai's
-      method](https://en.wikipedia.org/wiki/Tai%27s_model) which
-      reinvented the trapezoidal rule
+  - Demo: <!-- [Ch4_integration.ipynb](Demos/Ch4_integration.ipynb) -->
+    <!-- - Look at [Tai's -->
+    <!--   method](https://en.wikipedia.org/wiki/Tai%27s_model) which -->
+    <!--   reinvented the trapezoidal rule -->
 
 #### Week 13, Chapter 6 (finish integration, start direct methods for linear algebra)
 - Mon, Apr 6
@@ -277,8 +277,8 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Lab 12
 - Wed, Apr 8 
   - Debrief from lab
-  - Demo: [Ch4_CompositeIntegration.ipynb](Demos/Ch4_CompositeIntegration.ipynb)
-  - Demo: [Ch4_AdaptiveIntegration.ipynb](Demos/Ch4_AdaptiveIntegration.ipynb)
+  - Demo: <!-- [Ch4_CompositeIntegration.ipynb](Demos/Ch4_CompositeIntegration.ipynb) -->
+  <!-- - Demo: [Ch4_AdaptiveIntegration.ipynb](Demos/Ch4_AdaptiveIntegration.ipynb) -->
   - Briefly start Gaussian quadrature from ch 4.7 and also from the
     Driscoll and Braun supplementary text (saving the demo for Friday)
   - Further resources on Gaussian quadrature:
@@ -304,7 +304,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   <!--     [Ch4_ImproperIntegrals.ipynb](Demos/Ch4_ImproperIntegrals.ipynb)~~ -->
 - Fri, Apr 10 
   - Finish Gaussian quadrature
-    - Demo: [Ch4_GaussianQuadrature.ipynb](Demos/Ch4_GaussianQuadrature.ipynb)
+    - Demo: <!-- [Ch4_GaussianQuadrature.ipynb](Demos/Ch4_GaussianQuadrature.ipynb) -->
   - Start our last two units on **linear algebra** (ch 6 and ch 9)
     - In chapter 6, we're roughly covering the material from the book,
       but adding more (conditioning, more details on LAPACK/BLAS), and
@@ -337,12 +337,12 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   - Least Squares which looks at stability of QR vs normal equations
   - Ch6_QR_and_Householder.pdf
   - Demos:
-    - Short demo on
-      [Ch6_Conditioning_solvingEquations.ipynb](Demos/Ch6_Conditioning_solvingEquations.ipynb)
-    - Did part of
-      [Ch6_LU_vs_Cholesky.ipynb](Demos/Ch6_LU_vs_Cholesky.ipynb) to
-      demonstrate why we want to pivot. We didn't cover the rest of
-      this demo
+    <!-- - Short demo on -->
+    <!--   [Ch6_Conditioning_solvingEquations.ipynb](Demos/Ch6_Conditioning_solvingEquations.ipynb) -->
+    <!-- - Did part of -->
+    <!--   [Ch6_LU_vs_Cholesky.ipynb](Demos/Ch6_LU_vs_Cholesky.ipynb) to -->
+    <!--   demonstrate why we want to pivot. We didn't cover the rest of -->
+    <!--   this demo -->
     <!-- - Did *not* cover ~~[Ch6_conditioning_LeastSquares.ipynb](Demos/Ch6_conditioning_LeastSquares.ipynb) (long!)~~, nor ~~[Ch6_RepeatedSolves.ipynb](Demos/Ch6_RepeatedSolves.ipynb) (short)~~, nor ~~[Ch6_MatrixMultiplication.ipynb](Demos/Ch6_MatrixMultiplication.ipynb), talk about BLAS and LAPACK~~ -->
 - Fri, Apr 17 
   <!-- - If you're rusty on eigenvalues and determinants, see all of -->
@@ -351,9 +351,9 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
   <!--   in-class exercise to see if we can use the characteristic equation -->
   <!--   to find eigenvalues -->
   - Demo:
-    [Ch9_EigenvaluesTheBadWay.ipynb](Demos/Ch9_EigenvaluesTheBadWay.ipynb),
-    though this also has information on how to compute the determinant
-    *the good way*
+    <!-- [Ch9_EigenvaluesTheBadWay.ipynb](Demos/Ch9_EigenvaluesTheBadWay.ipynb), -->
+    <!-- though this also has information on how to compute the determinant -->
+    <!-- *the good way* -->
 
 #### Week 15, iterative methods (Ch 9, possibly Ch 7)
 - Mon, Apr 20 
@@ -367,7 +367,7 @@ References are to Burden and Faires, 10th edition, unless otherwise noted
     accelerate convergence and find more than one eigenvalue (i.e.,
     shift-and-invert, deflation, orthogonal iteration and the QR
     Iteration)
-  - Demo: [Ch 9 power method demo](Demos/Ch9_PowerMethod.ipynb)
+  - Demo: <!-- [Ch 9 power method demo](Demos/Ch9_PowerMethod.ipynb) -->
 - Fri, Apr 24 
   - Ch 9.4, Householder reflections, reduction to tridiagonal or upper
     Hessenberg

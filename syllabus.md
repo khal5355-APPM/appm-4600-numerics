@@ -1,15 +1,25 @@
 # Syllabus for APPM 4600 Numerical Methods and Scientific Computing
 
-Fall 2025, Instructor: Stephen Becker (Applied Math dept)
+Spring 2026, Instructor: Mark Hoefer (Applied Math dept)
 
 See also [policies](policies.md) and [day-by-day schedule](schedule.md)
 
 ### Official course description
-Provides an introduction to numerical analysis and scientific computing. Numerical analysis topics include root finding, interpolation, quadrature, linear system solution techniques, and techniques for approximating eigenvalues. Scientific computing topics include code development and repository management in addition to an introduction to shared and distributed memory computing. Involves hands-on learning with weekly group interactions and a final project including a report and in-class presentation. Recommended prerequisite: knowledge of a programming language such as Python, and C++.				
+Provides an introduction to numerical analysis and scientific
+computing. Numerical analysis topics include root finding,
+interpolation, quadrature, linear system solution techniques, and
+techniques for approximating eigenvalues. Scientific computing topics
+include code development and repository management in addition to an
+introduction to shared and distributed memory computing. Involves
+hands-on learning with weekly group interactions and a final project
+including a report and in-class presentation. Recommended
+prerequisite: knowledge of a programming language such as Python
+(preferable), Matlab, or C++.
 
-Requires a **prerequisite** course APPM 3310 (matrix methods), with a minimum grade of C-.  
+A **prerequisite** course APPM 3310 (matrix methods), with a minimum grade of C-.  
 
-For both semesters 4600 and 4610, we'll use a lot of math from your previous courses, especially:
+For 4600, we'll use a lot of math from your previous courses,
+especially:
 
 - lots of calculus, including: Taylor's theorem, fundamental theorem of calculus, IVT, EVT, MVT, sequences and series, limits, continuity, Riemann sums, L'Hopital's rule
 - Facts about polynomial roots (fundamental theorem of algebra); complex numbers
@@ -19,12 +29,25 @@ For both semesters 4600 and 4610, we'll use a lot of math from your previous cou
 ### Related courses at CU
 This course is similar to the CS department's [CSCI-3656 Numerical Computation](https://github.com/cu-numcomp/numcomp-class/) but has a bit more analysis (and more math prerequisites), fewer implementation details, and similar but not identical topics.
 
-This course was forked from the APPM/MATH 4650 (and second semester 4660) about 2022 in recognition of the different needs of math vs applied math students.  MATH 4650 has less focus on actual software implementation (and is only 3 credits, not 4), but otherwise both classes cover roughly the same topics.
+This course was forked from the APPM/MATH 4650 (and second semester
+4660) in about 2022 in recognition of the different needs of math vs
+applied math students.  MATH 4650 has less focus on actual software
+implementation is only 3 credits, not 4, but otherwise both
+classes cover roughly the same topics.
 
 ### Programming
-Homeworks will involve by mathematical analysis and programming.
+Homeworks will involve mathematical analysis and programming.
 
-Students are expected to already know how to program.  We encourage using Python; Julia is another good choice though we will not be using it explicitly.  For homework assignments, usually the deliverable is the outcome of some code, so therefore the student may choose **any** reasonable programming language. However, we will be doing demonstrations in Python (and the instructor/TA are best at debugging Python and Matlab).  Most of our demonstrations will be using [github](http://github.com) in conjunction with [python via colab](https://colab.research.google.com/).  Homework solutions are usually posted in Python, though we may have legacy Matlab versions to share upon request.  The **labs** are all in Python.
+Students are expected to already know how to program.  We encourage
+using Python; Julia is another good choice though we will not be using
+it explicitly.  For homework assignments, usually the deliverable is
+the outcome of some code, so therefore the student may choose **any**
+programming language. However, we will be doing demonstrations in
+Python and the instructor/TA are best at debugging Python and/or
+Matlab.  Most of our demonstrations will be using
+[github](http://github.com) in conjunction with [python via
+colab](https://colab.research.google.com/).  Homework solutions are
+usually posted in Python.  The **labs** are all in Python.
 
 ### Principal Topics
 
@@ -42,7 +65,7 @@ Students are expected to already know how to program.  We encourage using Python
 - Eigenvalue problems
   - Iterative methods (taught at instructor's discretion)
 
-In the change from 4650 to 4600, we now save numerical differentiation and numerical methods for IVP and BVP in the second semester class
+In the change from 4650 to 4600, we now save numerical differentiation and numerical methods for IVP and BVP for the second semester class.
 
 ### Learning Goals/Outcomes
 [//]: # ( Not testable; high-level )
@@ -62,9 +85,20 @@ In the change from 4650 to 4600, we now save numerical differentiation and numer
 - Have some understanding of methods, and complications, for solving multi-dimensional nonlinear equations and multivariate optimization problems; understand the difference between stationary points and optima
 - Understand how polynomials are used for quadrature rules, and the ideas of composite rules and non-equispaced nodes.
 
+### Exams
+[//]: 
+Both midterms are Wednesday evening exams that will take place on
+2/23/26 and 3/30/26, time (on or after 5pm) and location TBD; solutions will be made available on Canvas.
+
 
 # High-level list of topics
-Roughly, chapters 1-6 (skipping ch 5) with bits of ch 8, 9, and 10 of [Burden and Faires' textbook](https://sites.google.com/site/numericalanalysis1burden/) (9th or 10th edition); the second-semester continuation of this course (4660) roughly covers chapters 5, 11 and 12 (ODE IVP, ODE BVP and PDE). The following is taken from the table of contents of the textbook:
+Roughly, chapters 1-6 (skipping ch 5) with bits of ch 8, 9, and 10 of
+[Burden and Faires'
+textbook](https://sites.google.com/site/numericalanalysis1burden/)
+(9th or 10th edition); the second-semester continuation of this course
+(4610) roughly covers chapters 5, 11 and 12 (ODE IVP, ODE BVP and
+PDE). The following is taken from the table of contents of the
+textbook:
 
 - [Ch 1] Math preliminaries and error analysis
    - Review of calculus; round-off errors and computer arithmetic; algorithms and convergence
@@ -104,33 +138,34 @@ For reference, the chapters which are *not* covered extensively in this first se
 The old version of the class, APPM/MATH 4650 and 4660, covered roughly chapters 1--6 in first semester and parts of chapters 7--12 in second semester.
 
 
-# Subjects on the midterms and final
+<!-- # Subjects on the midterms and final -->
 
-You might try the [midterm study guide jupyter notebook](https://github.com/cu-numcomp/numcomp-class/blob/master/Midterm-StudyGuide.ipynb) used for the CS department's version of this class.
+<!-- You might try the [midterm study guide jupyter notebook](https://github.com/cu-numcomp/numcomp-class/blob/master/Midterm-StudyGuide.ipynb) used for the CS department's version of this class. -->
 
-Both midterm exams are in-class exams, posted at [Exams](./Exams); solutions are available on Canvas.
+<!-- Both midterm exams are Wednesday evening exams that will take place on -->
+<!-- 2/23/26 and 3/30/26; solutions will be made available on Canvas. -->
 
-## Midterm 1
-The high-level set of topics is anything we've discussed in class up to and including ... TBD.
+<!-- ## Midterm 1 -->
+<!-- The high-level set of topics is anything we've discussed in class up to and including ... TBD. -->
 
-See the [Midterm 1 review](Notes/Review_Midterm1.pdf) and [Midterm 1 review solutions](Notes/Review_Midterm1.soln.pdf)
+<!-- See the [Midterm 1 review](Notes/Review_Midterm1.pdf) and [Midterm 1 review solutions](Notes/Review_Midterm1.soln.pdf) -->
 
-Below are specific chapters (in Burden and Faires 9th or 10th edition) that are covered:
+<!-- Below are specific chapters (in Burden and Faires 9th or 10th edition) that are covered: -->
 
-Detailed list of topics (TBD)
+<!-- Detailed list of topics (TBD) -->
 
-## Midterm 2
+<!-- ## Midterm 2 -->
 
-See the [Midterm 2 review](Notes/Review_Midterm2.pdf) and [Midterm 2 review solutions](Notes/Review_Midterm2.soln.pdf)
+<!-- See the [Midterm 2 review](Notes/Review_Midterm2.pdf) and [Midterm 2 review solutions](Notes/Review_Midterm2.soln.pdf) -->
 
-Detailed list of topics (TBD)
+<!-- Detailed list of topics (TBD) -->
 
 
-## Final Exam
-The final is cumulative, but with extra emphasis on the following topics (TBD)
+<!-- ## Final Exam -->
+<!-- The final is cumulative, but with extra emphasis on the following topics (TBD) -->
 
-See the [Final Exam review](Notes/Review_Final.pdf) and [Final Exam review solutions](Notes/Review_Final.soln.pdf); see also the conceptual review sheet "KeyIdeas_DriscollBraun.pdf" on canvas
+<!-- See the [Final Exam review](Notes/Review_Final.pdf) and [Final Exam review solutions](Notes/Review_Final.soln.pdf); see also the conceptual review sheet "KeyIdeas_DriscollBraun.pdf" on canvas -->
 
-The most important topics are marked with an asterisk*
+<!-- The most important topics are marked with an asterisk* -->
 
-... TBD
+<!-- ... TBD -->
